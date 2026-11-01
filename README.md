@@ -1,72 +1,154 @@
-# NeetCode Solutions — @Pranav-Conova
+<div align="center">
 
-> Synced automatically from [NeetCode.io](https://neetcode.io) · Repository: `neetcode-submissions`
+# 🧠 NeetCode Submissions
 
----
+### My solutions to the NeetCode problem list, synced straight from [NeetCode.io](https://neetcode.io).
 
-## What is this?
+Data structures and algorithms practice for coding interviews, one problem at a time.<br>
+Every accepted submission lands here automatically, so this repo is an honest log of the grind.
 
-[NeetCode.io](https://neetcode.io) is a coding interview preparation platform featuring curated problems, video solutions, and an in-browser code editor. This repository is automatically populated with your accepted (or all) solutions using the **GitHub Sync** feature.
+[![Problems solved](https://img.shields.io/badge/problems%20solved-24-brightgreen)](#-progress)
+[![Python](https://img.shields.io/badge/Python-main-3776AB?logo=python&logoColor=white)](#-languages)
+[![Go](https://img.shields.io/badge/Go-some-00ADD8?logo=go&logoColor=white)](#-languages)
+[![Rust](https://img.shields.io/badge/Rust-some-000000?logo=rust&logoColor=white)](#-languages)
+[![NeetCode](https://img.shields.io/badge/synced%20from-NeetCode.io-F5A623)](https://neetcode.io)
+[![Last commit](https://img.shields.io/github/last-commit/Pranav-Conova/neetcode-submissions)](https://github.com/Pranav-Conova/neetcode-submissions/commits/main)
+[![GitHub stars](https://img.shields.io/github/stars/Pranav-Conova/neetcode-submissions?style=social)](https://github.com/Pranav-Conova/neetcode-submissions/stargazers)
 
----
+[**Progress**](#-progress) · [**Solutions**](#-solutions) · [**Languages**](#-languages) · [**Structure**](#-repository-structure) · [**How it syncs**](#-how-it-syncs)
 
-## How GitHub Sync works
-
-1. **Connect your GitHub account** on [neetcode.io/profile/github](https://neetcode.io/profile/github).
-2. **Auto-commit** — every time you submit a solution on NeetCode, it is pushed here automatically (configurable by status).
-3. **Bulk Sync** — push all your past solutions at once from the GitHub settings page.
-4. **Manual sync** — from the submission history panel on any problem page, sync or remove individual submissions.
-
----
-
-## Repository structure
-
-Solutions are organized by topic folder, then problem ID. Each submission is stored as a separate file:
-
-```
-<topic-folder>/
-  <problem-id>/
-    submission-0.<ext>   ← first submission
-    submission-1.<ext>   ← second submission
-    ...
-```
-
-**Example:**
-```
-Data Structures & Algorithms/two-integer-sum/submission-0.py
-Data Structures & Algorithms/binary-search/submission-0.ts
-Python For Beginners/python-hello-world/submission-0.py
-```
+</div>
 
 ---
 
-## Supported languages
+## 🤔 Why?
 
-| Language | Extension |
+Interview prep is easy to start and hard to keep up. Keeping every submission in a public repo makes the practice visible and keeps me honest:
+
+- 📈 **Progress you can see**: the commit graph fills up as problems get solved.
+- 🔁 **Every attempt kept**: multiple submissions per problem show how a solution improved, not just the final answer.
+- 🌐 **More than one language**: some problems are re-solved in Go and Rust to practise those languages too (so far, Last Stone Weight).
+
+## 📊 Progress
+
+Solved so far, grouped by NeetCode topic:
+
+| Topic | Solved | |
+|---|:-:|---|
+| Arrays & Hashing | 7 | 🟩🟩🟩🟩🟩🟩🟩 |
+| Two Pointers | 3 | 🟩🟩🟩 |
+| Sliding Window | 1 | 🟩 |
+| Stack | 1 | 🟩 |
+| Binary Search | 1 | 🟩 |
+| Linked List | 3 | 🟩🟩🟩 |
+| Trees | 6 | 🟩🟩🟩🟩🟩🟩 |
+| Heap / Priority Queue | 2 | 🟩🟩 |
+| **Total** | **24** | |
+
+## ✅ Solutions
+
+<details open>
+<summary><b>Arrays & Hashing</b> (7)</summary>
+
+| Problem | Solution |
 |---|---|
-| Python | `.py` |
-| JavaScript | `.js` |
-| TypeScript | `.ts` |
-| Java | `.java` |
-| C++ | `.cpp` |
-| C# | `.cs` |
-| Go | `.go` |
-| Rust | `.rs` |
-| Kotlin | `.kt` |
-| Swift | `.swift` |
-| SQL | `.sql` |
+| [Contains Duplicate](https://neetcode.io/problems/duplicate-integer) | [Python](Data%20Structures%20%26%20Algorithms/duplicate-integer) |
+| [Valid Anagram](https://neetcode.io/problems/is-anagram) | [Python](Data%20Structures%20%26%20Algorithms/is-anagram) |
+| [Two Sum](https://neetcode.io/problems/two-integer-sum) | [Python](Data%20Structures%20%26%20Algorithms/two-integer-sum) |
+| [Group Anagrams](https://neetcode.io/problems/anagram-groups) | [Python](Data%20Structures%20%26%20Algorithms/anagram-groups) |
+| [Top K Frequent Elements](https://neetcode.io/problems/top-k-elements-in-list) | [Python](Data%20Structures%20%26%20Algorithms/top-k-elements-in-list) |
+| [Encode and Decode Strings](https://neetcode.io/problems/string-encode-and-decode) | [Python](Data%20Structures%20%26%20Algorithms/string-encode-and-decode) |
+| [Product of Array Except Self](https://neetcode.io/problems/products-of-array-discluding-self) | [Python](Data%20Structures%20%26%20Algorithms/products-of-array-discluding-self) |
+
+</details>
+
+<details>
+<summary><b>Two Pointers</b> (3)</summary>
+
+| Problem | Solution |
+|---|---|
+| [Valid Palindrome](https://neetcode.io/problems/is-palindrome) | [Python](Data%20Structures%20%26%20Algorithms/is-palindrome) |
+| [Two Sum II](https://neetcode.io/problems/two-integer-sum-ii) | [Python](Data%20Structures%20%26%20Algorithms/two-integer-sum-ii) |
+| [3Sum](https://neetcode.io/problems/three-integer-sum) | [Python](Data%20Structures%20%26%20Algorithms/three-integer-sum) |
+
+</details>
+
+<details>
+<summary><b>Sliding Window, Stack, Binary Search</b> (3)</summary>
+
+| Problem | Topic | Solution |
+|---|---|---|
+| [Best Time to Buy and Sell Stock](https://neetcode.io/problems/buy-and-sell-crypto) | Sliding Window | [Python](Data%20Structures%20%26%20Algorithms/buy-and-sell-crypto) |
+| [Valid Parentheses](https://neetcode.io/problems/validate-parentheses) | Stack | [Python](Data%20Structures%20%26%20Algorithms/validate-parentheses) |
+| [Binary Search](https://neetcode.io/problems/binary-search) | Binary Search | [Python](Data%20Structures%20%26%20Algorithms/binary-search) |
+
+</details>
+
+<details>
+<summary><b>Linked List</b> (3)</summary>
+
+| Problem | Solution |
+|---|---|
+| [Reverse Linked List](https://neetcode.io/problems/reverse-a-linked-list) | [Python](Data%20Structures%20%26%20Algorithms/reverse-a-linked-list) |
+| [Merge Two Sorted Lists](https://neetcode.io/problems/merge-two-sorted-linked-lists) | [Python](Data%20Structures%20%26%20Algorithms/merge-two-sorted-linked-lists) |
+| [Linked List Cycle](https://neetcode.io/problems/linked-list-cycle-detection) | [Python](Data%20Structures%20%26%20Algorithms/linked-list-cycle-detection) |
+
+</details>
+
+<details>
+<summary><b>Trees</b> (6)</summary>
+
+| Problem | Solution |
+|---|---|
+| [Invert Binary Tree](https://neetcode.io/problems/invert-a-binary-tree) | [Python](Data%20Structures%20%26%20Algorithms/invert-a-binary-tree) |
+| [Maximum Depth of Binary Tree](https://neetcode.io/problems/depth-of-binary-tree) | [Python](Data%20Structures%20%26%20Algorithms/depth-of-binary-tree) |
+| [Diameter of Binary Tree](https://neetcode.io/problems/binary-tree-diameter) | [Python](Data%20Structures%20%26%20Algorithms/binary-tree-diameter) |
+| [Balanced Binary Tree](https://neetcode.io/problems/balanced-binary-tree) | [Python](Data%20Structures%20%26%20Algorithms/balanced-binary-tree) |
+| [Same Tree](https://neetcode.io/problems/same-binary-tree) | [Python](Data%20Structures%20%26%20Algorithms/same-binary-tree) |
+| [Subtree of Another Tree](https://neetcode.io/problems/subtree-of-a-binary-tree) | [Python](Data%20Structures%20%26%20Algorithms/subtree-of-a-binary-tree) |
+
+</details>
+
+<details>
+<summary><b>Heap / Priority Queue</b> (2)</summary>
+
+| Problem | Solution |
+|---|---|
+| [Kth Largest Element in a Stream](https://neetcode.io/problems/kth-largest-integer-in-a-stream) | [Python](Data%20Structures%20%26%20Algorithms/kth-largest-integer-in-a-stream) |
+| [Last Stone Weight](https://neetcode.io/problems/last-stone-weight) | [Python · Go · Rust](Data%20Structures%20%26%20Algorithms/last-stone-weight) |
+
+</details>
+
+## 🌐 Languages
+
+| Language | Files | Used for |
+|---|:-:|---|
+| 🐍 Python | 39 | Every problem |
+| 🐹 Go | 2 | Re-solving Last Stone Weight with `container/heap` |
+| 🦀 Rust | 3 | Re-solving Last Stone Weight with `BinaryHeap` |
+
+## 🗂 Repository structure
+
+Solutions are grouped by topic folder, then problem ID. Each submission is its own file, so earlier attempts are kept:
+
+```text
+Data Structures & Algorithms/
+└── <problem-id>/
+    ├── submission-0.py    ← first submission
+    ├── submission-1.py    ← a later attempt
+    └── submission-9.rs    ← same problem, another language
+```
+
+## 🔄 How it syncs
+
+This repo is filled by NeetCode's **GitHub Sync**: every time a solution is submitted on [neetcode.io](https://neetcode.io), it's committed here automatically. Past solutions can be bulk-synced, and individual submissions can be synced or removed from a problem's history panel. Settings live at [neetcode.io/profile/github](https://neetcode.io/profile/github).
+
+> 💡 Want your own? Connect GitHub on NeetCode and it creates a repo like this one for you.
 
 ---
 
-## Settings
+<div align="center">
 
-Manage your sync preferences at [neetcode.io/profile/github](https://neetcode.io/profile/github):
+One problem a day. If this list helps your own prep, a ⭐ is appreciated.
 
-- **Auto-commit toggle** — enable or disable automatic commits on submission
-- **Status filter** — sync all submissions or accepted only
-- **Rename repository** — rename this repo or start fresh with a new one
-- **Bulk Sync** — push all past solutions at once (rate-limited)
-
----
-
-*Generated by [NeetCode GitHub Integration](https://neetcode.io)*
+</div>
